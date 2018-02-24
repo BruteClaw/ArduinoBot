@@ -28,6 +28,8 @@ Aug 2017 - Crude Multichannel support added, fixed the server connection setting
 
 Oct 2017 - Recovered source files after they were deleted from my local system.  Cleaned up the command section to take less memory.  Moved config variable off to a second file.
 
+Feb 2018 - Uploaded to GitHub and updated source command
+
 Backend commands not listed to the public:
 
 %chng - Change the current channel that the bot is talking on
@@ -426,7 +428,7 @@ void handle_irc_connection()
         //Source Code
         if (strcmp(buf, "%srce") == 0)
         {
-          command("My source code can be found at: https://www.dropbox.com/sh/566n9x3fp3jc4e5/AADaka0iZ492cUwUOaSD0Whja?dl=0", "Source Code");
+          command("My source code can be found at: https://github.com/BruteClaw/ArduinoBot", "Source Code");
         }
 
         //Commands 1
